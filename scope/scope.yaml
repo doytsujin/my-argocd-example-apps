@@ -306,6 +306,8 @@ items:
           port: 80
           protocol: TCP
           targetPort: 4040
+          nodePort: 30080
+      type: NodePort
       selector:
         name: weave-scope-app
         app: weave-scope
