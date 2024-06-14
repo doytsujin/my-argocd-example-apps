@@ -305,7 +305,7 @@ items:
         - name: app
           port: 80
           protocol: TCP
-          targetPort: 84040
+          targetPort: 4040
       type: LoadBalancer
       selector:
         name: weave-scope-app
